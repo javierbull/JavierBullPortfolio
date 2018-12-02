@@ -1,0 +1,109 @@
+@media (min-width: 320px) and (max-width: 760px ) {
+	/* CELULARES */
+	body{
+		background-color: tomato;
+	}
+
+	.header-video {
+	  position: absolute;
+	  bottom: 0;
+	  right: 0;
+	}
+
+	.content {
+    padding: 0 3rem 0 3rem;
+  }
+
+	/* bloque about */
+
+	.title-block {
+	  background-color: #F4F7FC;
+	  padding: 60px 0;
+	  margin: 80px 0;
+	}
+
+	.about-img {
+	  margin-top: 800px;
+	}
+
+	.about-text {
+	  padding: 3rem;
+	}
+
+	/* fin bloque about */
+
+	/* bloque Blog */
+	.img_card {
+		margin: 1rem auto;
+	}
+
+
+	/* fin bloque blog */
+
+	/* bloque contacto */
+	.form {
+	  /* background-color: gold; */
+	  display: block;
+	  width: 450px;
+	  margin: 0 auto;
+	}
+	/* fin bloque contacto */
+
+	/* footer */
+
+	/* fin footer */
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px ) {
+	/* TABLETS */
+	body{
+		background-color: green;
+	}
+
+	.content {
+    padding: 0 3rem 0 3rem;
+  }
+
+	/* bloque about */
+
+	.title-block {
+		background-color: #F4F7FC;
+		padding: 60px 0;
+		margin: 80px 0;
+	}
+
+	.about-img {
+		margin-top: 1000px;
+	}
+
+	.about-img img{
+		width: 80%;
+	}
+
+	.about-text {
+		padding: 3rem;
+	}
+
+	/* fin bloque about */
+
+	/* bloque blog */
+
+	.img_card {
+		/* background-color: tomato; */
+		width: 220px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.img_card img {
+		width: 220px;
+		transition: all 0.5s ease-in-out;
+
+	}
+
+
+	/* fin bloque blog */
+
+
+}
