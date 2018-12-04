@@ -40,6 +40,22 @@
 
 	/* fin bloque blog */
 
+	/* bloque portfolio */
+
+	.content-portfolio {
+		background-color: gold;
+		display: block;
+		width: 90vw;
+		margin: 0 auto;
+
+	}
+
+	.portfolio-item {
+		margin-bottom: 1rem;
+	}
+
+	/* fin bloque portfolio */
+
 	/* bloque contacto */
 	.form {
 	  /* background-color: gold; */
@@ -86,6 +102,19 @@
 	}
 
 	/* fin bloque about */
+
+	/* bloque portfolio */
+
+
+	.content-portfolio {
+		background-color: gold;
+		width: 90vw;
+		grid-template-columns: repeat(2, 1fr);
+	  grid-template-rows: auto;
+		margin: 0 auto;
+
+	}
+	/* fon bloque portfolio */
 
 	/* bloque blog */
 

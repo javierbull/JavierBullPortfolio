@@ -31,11 +31,11 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav pull-lg-right ml-auto">
-                  <a class="nav-item nav-link active" href="#">INICIO <span class="sr-only">(current)</span></a>
-                  <a class="nav-item nav-link" href="#about-block">ACERCA DE MÍ</a>
-                  <a class="nav-item nav-link" href="#portfolio-block">PORTAFOLIO</a>
-                  <a class="nav-item nav-link" href="#blog-block">BLOG</a>
-                  <a class="nav-item nav-link" href="#contact-block">CONTACTO</a>
+                  <a class="nav-item nav-link" href="index.html">INICIO <span class="sr-only">(current)</span></a>
+                  <a class="nav-item nav-link" href="index.html#about-block">ACERCA DE MÍ</a>
+                  <a class="nav-item nav-link" href="index.html#portfolio-block">PORTAFOLIO</a>
+                  <a class="nav-item nav-link active" href="index.html#blog-block">BLOG</a>
+                  <a class="nav-item nav-link" href="index.html#contact-block">CONTACTO</a>
                 </div>
               </div>
             </nav>
@@ -46,321 +46,251 @@
     </section>
 
   </header>
-  <main>
+  <main class="bg-color-gray">
     <section class="bg-video content container">
 
-      <div class="header-video">
-        <video src="video/wireframing.mp4" autoplay muted loop></video>
+      <div class="header-video-portfolio">
+        <video src="video/typing.mp4" class="video-blog" autoplay muted loop></video>
       </div>
       <div class="header-overlay"></div>
 
 
         <div class="video-content">
-          <h1 class="title-banner">Hola, <br>
-          soy Javier Bull</h1>
-          <h2 class="title">Front-End Developer | UX / UI</h2>
+          <h1 class="title-banner"><span>Mi </span>Blog</h1>
+          <h2 class="title">Un poco acerca de lo que nos apasiona</h2>
         </div>
 
       </section>
 
       <!-- FIN BANNER-->
 
-      <!-- BLOQUE ABOUT -->
 
-      <section class="about-block" id="about-block">
+      <section class="section-post" id="section-post">
+        <!-- Page Content -->
+        <div class="container">
 
           <div class="row">
-            <div class="title-block col-sm-12 col-md-12 col-lg-12">
-              <h2 class="title text-center">Acerca de <span>Mí</span></h2>
-              <div class="line margin-center"></div>
-            </div>
 
-            <div class="container">
-              <div class="row content-about d-flex justify-content-between">
-                <div class="about-img col-sm-12 col-md-12 col-lg-4">
-                  <img src="img/man.png" alt="">
+            <!-- Post Content Column -->
+            <div class="col-lg-8">
+
+              <!-- Title -->
+              <h1 class="mt-4">¿Qué es el Design Thinking?</h1>
+
+              <!-- Author -->
+              <p class="lead">
+                por
+                <a href="#">Javier Bull</a>
+              </p>
+
+              <hr>
+
+              <!-- Date/Time -->
+              <p>Publicado en Diciembre 3, 2018</p>
+
+              <hr>
+
+              <!-- Preview Image -->
+              <div class="img-post col-sm-12 col-md-12 col-lg-12">
+                <img class="img-fluid " src="img/blog1.png" alt="">
+              </div>
+
+              <!-- Post Content -->
+              <div class="post-content">
+                <div class="container">
+                  <div class="row">
+                    <p class="lead">
+                      El <span class="font-weight-normal">Design Thinking</span>
+                      es un método para generar ideas innovadoras que centra su
+                      eficacia en entender y dar solución a las necesidades reales
+                      de los usuarios. Proviene de la forma en la que trabajan los
+                      diseñadores de producto. De ahí su nombre, que en español se
+                      traduce de forma literal como <span class="font-weight-normal">
+                        "Pensamiento de Diseño"</span>, aunque
+                      nosotros preferimos hacerlo como <span class="font-weight-normal">
+                        "La forma en la que piensan
+                        los diseñadores".
+                      </span>
+                      Se empezó a desarrollar de forma teórica en la Universidad
+                      de Stanford en California (EEUU) a partir de los años 70, y
+                      su primera aplicabilidad con fines lucrativos como "Design
+                      Thinking" la llevó a cabo la consultoría de diseño IDEO,
+                      siendo hoy en día su principal precursora.
+                    </p>
+                  </div>
                 </div>
 
-                <div class="about-text col-sm-12 col-md-12 col-lg-6">
-                  <h3 class="title-2">
-                    Soy  Javier Bull, Frontend
-                    Web Developer and UX/UI Designer
-                  </h3>
-                  <div class="line"></div>
+              </div>
 
-                  <p class="parrafos">
-                    El diseño y la investigación, dos puntos clave que forman
-                    parte de mi ADN y cultura.
-                    La búsqueda de excelencia e innovación son objetivos
-                    principales al momento de desarrollar mi trabajo.
-                  </p>
 
-                  <h3 class="title-2">
-                    Skills
-                  </h3>
-                  <div class="line"></div>
 
+
+
+              <div class="post-content2">
+                <div>
+                  <blockquote class="blockquote">
+
+                    <footer class="blockquote-footer">Tim Brown
+                      <cite title="Source Title">actual CEO de IDEO</cite>
+                    </footer>
+                  </blockquote>
+
+
+
+              <p>
+                El Design Thinking “Es una disciplina que usa la
+                sensibilidad y métodos de los diseñadores para hacer
+                coincidir las necesidades de las personas con lo que es
+                tecnológicamente factible y con lo que una estrategia
+                viable de negocios puede convertir en valor para el cliente,
+                así como en una gran oportunidad para el mercado”.
+              </p>
+
+
+            </div>
+          </div>
+
+              <!-- Comments Form -->
+              <div class="card my-4">
+                <h5 class="card-header">Deja un comentario:</h5>
+                <div class="card-body">
+                  <form>
+                    <div class="form-group">
+                      <textarea class="form-control" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="button">Submit</button>
+                  </form>
+                </div>
+              </div>
+
+              <!-- Single Comment -->
+              <div class="media mb-4">
+                <img class="d-flex mr-3 rounded-circle" src="img/face2.jpg" alt="">
+                <div class="media-body">
+                  <h5 class="mt-0">Ellen Page</h5>
+                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                </div>
+              </div>
+
+              <!-- Comment with nested comments -->
+              <div class="media mb-4">
+                <img class="d-flex mr-3 rounded-circle" src="img/face3.jpg" alt="">
+                <div class="media-body">
+                  <h5 class="mt-0">Jake Gyllenhaal</h5>
+                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+
+                  <div class="media mt-4">
+                    <img class="d-flex mr-3 rounded-circle" src="img/face1.jpg" alt="">
+                    <div class="media-body">
+                      <h5 class="mt-0">Matt Damon</h5>
+                      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                    </div>
+                  </div>
+
+                  <div class="media mt-4">
+                    <img class="d-flex mr-3 rounded-circle" src="img/face4.jpg" alt="">
+                    <div class="media-body">
+                      <h5 class="mt-0">charlize Theron</h5>
+                      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Sidebar Widgets Column -->
+            <div class="col-md-4">
+
+              <!-- Search Widget -->
+              <div class="card my-4">
+                <h5 class="card-header">Busca aquí</h5>
+                <div class="line2 ml-3"></div>
+                <div class="card-body">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Buscar">
+                    <span class="input-group-btn">
+                      <button class="btn btn-secondary" type="button">
+                        <i class="fas fa-search"></i>
+                      </button>
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Categories Widget -->
+              <div class="card my-4">
+                <h5 class="card-header">Categorias</h5>
+                <div class="line2 ml-3"></div>
+                <div class="card-body">
                   <div class="row">
-                    <div class="list-skills col-sm-12 col-md-4 col-lg-4">
-                      <h3>Front-End</h3>
-                      <ul>
-                        <li><i class="fas fa-check"></i>HTML5</li>
-                        <li><i class="fas fa-check"></i>CSS3</li>
-                        <li><i class="fas fa-check"></i>JavaScript</li>
-                        <li><i class="fas fa-check"></i>Bootsrap</li>
-                        <li><i class="fas fa-check"></i>CSS Grid</li>
-                        <li><i class="fas fa-check"></i>Git</li>
+                    <div class="col-lg-6">
+                      <ul class="list-unstyled mb-0">
+                        <li>
+                          <a href="#">Design Thinking</a>
+                        </li>
+                        <li>
+                          <a href="#">HTML</a>
+                        </li>
+                        <li>
+                          <a href="#">Diseño Web</a>
+                        </li>
                       </ul>
                     </div>
-
-                    <div class="list-skills col-sm-12 col-md-4 col-lg-4">
-                      <h3 >Interfaz de Usuario</h3>
-                      <ul>
-                        <li><i class="fas fa-check"></i>Wireframing</li>
-                        <li><i class="fas fa-check"></i>Prototyping</li>
-                        <li><i class="fas fa-check"></i>XD</li>
-                    </div>
-
-                    <div class="list-skills col-sm-12 col-md-4 col-lg-4">
-                      <h3>Experiencia de Usuario</h3>
-                      <ul>
-                        <li><i class="fas fa-check"></i>User Research</li>
-                        <li><i class="fas fa-check"></i>Usability</li>
-                        <li><i class="fas fa-check"></i>IA</li>
+                    <div class="col-lg-6">
+                      <ul class="list-unstyled mb-0">
+                        <li>
+                          <a href="#">Metodologías</a>
+                        </li>
+                        <li>
+                          <a href="#">Proceso Creativo</a>
+                        </li>
+                        <li>
+                          <a href="#">Tutoriales</a>
+                        </li>
+                      </ul>
                     </div>
                   </div>
-
-
                 </div>
-            </div>
-            </div>
-          </div>
-      </section>
-      <!-- FIN BLOQUE ABOUT-->
-
-      <!-- BLOQUE PORTAFOLIO -->
-      <section class="portafolio" id="portfolio-block">
-        <div class="row">
-          <div class="title-block col-sm-12 col-md-12 col-lg-12">
-            <h2 class="title text-center">Mi <span>Portafolio</span></h2>
-            <div class="line margin-center"></div>
-            <div class="container">
-              <p class="text-center sub-title">
-                Dale un vistazo a mi trabajo.
-              </p>
-            </div>
-          </div>
-
-          <div class="container-fluid">
-            <div class="row box-main-portafolio">
-              <div class="box-img-portafolio col-sm-12 col-md-4 col-lg-4">
-                <a href="#" class="porta">
-                  <img src="img/porta1.png" alt="">
-                  <div class="overlay">
-                    <div class="text">Hello World</div>
-                  </div>
-                </a>
-
               </div>
 
-              <div class="box-img-portafolio col-sm-12 col-md-4 col-lg-4">
-                <a href="#">
-                  <img src="img/porta2.png" alt="">
-                  <div class="overlay">
-                    <div class="text">Hello World</div>
-                  </div>
-                </a>
+              <!-- Side Widget -->
+              <div class="card my-4">
+                <h5 class="card-header">Síguenos</h5>
+                <div class="line2 ml-3"></div>
+                <div class="card-body d-flex justify-content-center">
 
+                  <a href="#">
+                    <i class="fab fa-facebook-f color-facebook"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fab fa-twitter color-twitter"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fab fa-linkedin-in color-linkedin"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fab fa-behance color-behance"></i>
+                  </a>
+                </div>
               </div>
 
-              <div class="box-img-portafolio col-sm-12 col-md-4 col-lg-4">
-                <a href="#">
-                  <img src="img/porta3.png" alt="">
-                  <div class="overlay">
-                    <div class="text">Hello World</div>
-                  </div>
-                </a>
-
-              </div>
-
-              <div class="box-img-portafolio col-sm-12 col-md-4 col-lg-4">
-                <a href="#">
-                  <img src="img/porta4.png" alt="">
-                  <div class="overlay">
-                    <div class="text">Hello World</div>
-                  </div>
-                </a>
-
-              </div>
-
-              <div class="box-img-portafolio col-sm-12 col-md-4 col-lg-4">
-                <a href="#">
-                  <img src="img/porta5.png" alt="">
-                  <div class="overlay">
-                    <div class="text">Hello World</div>
-                  </div>
-                </a>
-
-              </div>
-
-              <div class="box-img-portafolio col-sm-12 col-md-4 col-lg-4">
-                <a href="#">
-                  <img src="img/porta6.png" alt="">
-                  <div class="overlay">
-                    <div class="text">Hello World</div>
-                  </div>
-                </a>
-
-              </div>
             </div>
 
           </div>
+          <!-- /.row -->
 
-          <a href="#" class="button">VER MÁS</a>
+        </div>
+        <!-- /.container -->
         </div>
 
-      </section>
-      <!-- FIN BLOQUE PORTAFOLIO -->
-
-      <!-- BLOQUE BLOG -->
-      <section class="section-blog" id="blog-block">
-
-          <div class="row">
-            <div class="title-block col-sm-12 col-md-12 col-lg-12">
-              <h2 class="title text-center">Últimos <span>Posts</span></h2>
-              <div class="line"></div>
-
-              <div class="container">
-                <p class="text-center sub-title">
-                  Un poco acerca de lo que nos apasiona.
-                </p>
-
-                <div class="row">
-
-                  <div class="col-sm-12 col-md-4 col-lg-4">
-        						<div class="img_card">
-        							<div class="img-border-hidden">
-        								<img src="img/blog1.png"alt="">
-        							</div>
-                      <div class="card-text">
-                        <small>Octubre 16, 2018</small>
-                        <a href="#" class="title-card">
-                          <h3>
-            								¿Qué es el Design Thinking?
-            							</h3>
-                        </a>
-
-                        <div class="line2"></div>
-          							<p>
-                          El “design thinking” se ha erigido en
-                          los últimos tiempos como herramienta de
-                          gran utilidad enfocada a fomentar la
-                          innovación en las ...
-          							</p>
-
-                        <a href="#" class="linkStyle d-flex align-items-center">LEER MÁS<i class=" material-icons">arrow_forward</i></a>
-                      </div>
-        						</div>
-        					</div>
-
-                  <div class="col-sm-12 col-md-4 col-lg-4">
-        						<div class="img_card">
-        							<div class="img-border-hidden">
-        								<img src="img/blog2.png"alt="">
-        							</div>
-                      <div class="card-text">
-                        <small>Octubre 16, 2018</small>
-                        <a href="#" class="title-card">
-                          <h3>
-            								¿Qué es el Design Thinking?
-            							</h3>
-                        </a>
-                        <div class="line2"></div>
-          							<p>
-                          El “design thinking” se ha erigido en
-                          los últimos tiempos como herramienta de
-                          gran utilidad enfocada a fomentar la
-                          innovación en las ...
-          							</p>
-
-                        <a href="#" class="linkStyle d-flex align-items-center">LEER MÁS<i class=" material-icons">arrow_forward</i></a>
-                      </div>
-        						</div>
-        					</div>
-
-                  <div class="col-sm-12 col-md-4 col-lg-4">
-        						<div class="img_card">
-        							<div class="img-border-hidden">
-        								<img src="img/blog3.png"alt="">
-        							</div>
-                      <div class="card-text">
-                        <small>Octubre 16, 2018</small>
-                        <a href="#" class="title-card">
-                          <h3>
-            								¿Qué es el Design Thinking?
-            							</h3>
-                        </a>
-                        <div class="line2"></div>
-          							<p>
-                          El “design thinking” se ha erigido en
-                          los últimos tiempos como herramienta de
-                          gran utilidad enfocada a fomentar la
-                          innovación en las ...
-          							</p>
-
-                        <a href="#" class="linkStyle d-flex align-items-center">LEER MÁS<i class=" material-icons">arrow_forward</i></a>
-                      </div>
-        						</div>
-        					</div>
-
-
-
-                  <a href="#" class="button">VER MÁS</a>
-                </div>
-
-              </div>
-
-            </div>
-          </div>
 
       </section>
 
-      <!-- FIN BLOQUE BLOG -->
-
-      <!-- BLOQUE CONTACTO -->
-      <section class="contacto-block" id="contact-block">
-        <div class="row">
-          <div class="title-block col-sm-12 col-md-12 col-lg-12">
-            <h2 class="title text-center">Envíame un <span>Mensaje</span></h2>
-            <div class="line"></div>
-            <div class="container">
-              <p class="text-center sub-title">
-                Estoy encantado de saber de ti
-              </p>
-
-            <div class="row">
-              <div class="col-sm-12 col-md-12 col-lg-12">
-                <form class="form" action="index.html" method="post" onsubmit="return validar();">
-                  <input class="col-sm-12 col-md-12 col-lg-12" type="text" name="name" placeholder="Nombre" onkeypress="return soloLetras(event)" id="name"/>
-                  <input class="col-sm-12 col-md-12 col-lg-12" type="email" name="email" placeholder="Email" id="email"/>
-                  <input class="col-sm-12 col-md-12 col-lg-12" type="subject" name="asunto" placeholder="Asunto" id="subject"/>
-                  <textarea class="col-sm-12 col-md-12 col-lg-12" name="mensaje" placeholder="Mensaje" id="mensaje"></textarea>
-
-                  <input type="submit" value="Enviar Mensaje" class="button col-sm-12 col-md-12 col-lg-12"  id="submit">
-
-                </form>
-              </div>
-
-            </div>
-
-            </div>
-          </div>
-        </div>
-      </section>
-
-
-      <!-- FIN BLOQUE CONTACTO -->
       </main>
+
+
       <footer>
         <div class="container">
           <div class="row">
