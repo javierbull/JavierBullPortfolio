@@ -1,7 +1,7 @@
 @media (min-width: 320px) and (max-width: 760px ) {
 	/* CELULARES */
 	body{
-		background-color: tomato;
+		/* background-color: tomato; */
 	}
 
 	.header-video {
@@ -43,7 +43,7 @@
 	/* bloque portfolio */
 
 	.content-portfolio {
-		background-color: gold;
+		/* background-color: gold; */
 		display: block;
 		width: 90vw;
 		margin: 0 auto;
@@ -74,7 +74,7 @@
 @media (min-width: 768px) and (max-width: 1024px ) {
 	/* TABLETS */
 	body{
-		background-color: green;
+		/* background-color: green; */
 	}
 
 	.content {
@@ -107,7 +107,7 @@
 
 
 	.content-portfolio {
-		background-color: gold;
+		/* background-color: gold; */
 		width: 90vw;
 		grid-template-columns: repeat(2, 1fr);
 	  grid-template-rows: auto;
